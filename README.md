@@ -1,7 +1,8 @@
-# vue一些使用vue开发的基础组件
+# easyVueComponents
 
-## 滑杆组件
-## 联动列表组建
+## 基于vue开发的基础原子组件
+
+### 1.slider可配置的滑块组件
 
 
 
