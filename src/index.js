@@ -1,1 +1,5 @@
-console.log('test easyVue');
+import { createApp } from 'vue'
+import App from './App.vue'
+
+const app = createApp(App)
+app.mount('#app') 

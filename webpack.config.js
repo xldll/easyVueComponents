@@ -1,5 +1,5 @@
 const path = require('path');
-//const VueLoaderPlugin = require('vue-loader')
+const { VueLoaderPlugin } = require('vue-loader/dist/index')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -54,7 +54,7 @@ module.exports = {
           filename: 'index.html',
           title: 'easy vue components'
         }),
-        //new VueLoaderPlugin()
+        new VueLoaderPlugin()
     ]
     
 };
